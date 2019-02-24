@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "639872551198",
+    "firebase_url": "https://bollytv-cd4cf.firebaseio.com",
+    "project_id": "bollytv-cd4cf",
+    "storage_bucket": "bollytv-cd4cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639872551198:android:5ab1059da117807c",
+        "android_client_info": {
+          "package_name": "com.example.harshranjan1.bollytv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639872551198-ofev6939lmhcopuneh9kahmnb1a56868.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harshranjan1.bollytv",
+            "certificate_hash": "b9c5ef5ee27e6d349ae6bc96f4a06c240026b987"
+          }
+        },
+        {
+          "client_id": "639872551198-4kg5cfkjrju9b2g1hukcu7pil9o8ij6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNmRSD7R8PEEcrRzcB6EoNC7PewkZ41Ro"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639872551198-4kg5cfkjrju9b2g1hukcu7pil9o8ij6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

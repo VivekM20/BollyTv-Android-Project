@@ -1,0 +1,11 @@
+ ActivityCompat.requestPermissions(MainActivity.this, new String[]{"android.permission.READ_CONTACTS"}, 65);
+        Uri u= ContactsContract.Contacts.CONTENT_URI;
+        Cursor c=getContentResolver().query(u,new String[]{ContactsContract.Contacts.DISPLAY_NAME_PRIMARY},null,ContactsContract.Contacts.DISPLAY_NAME +" ASC ",null);
+
+        if(c!=null)
+        {
+            c.moveToFirst();
+            do{String name=c.getString(c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME_PRIMARY));
+                Toast.makeText(this, "Contact:"+name, Toast.LENGTH_SHORT).show();
+                break;
+            }while (c.moveToNext());
